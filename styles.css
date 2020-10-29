@@ -77,7 +77,6 @@ button {
   flex: 2;
   background-color: #aaaaaa;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .article {
@@ -85,16 +84,16 @@ button {
   margin-bottom: 20px;
   padding: 10px 20px;
   box-sizing: border-box;
-  width: 100%;
 }
 
 @media (min-width: 900px) {
   .articles {
     padding-left: 40px;
     display: flex;
+    flex-wrap: wrap;
   }
   .article {
-    width: 370px;
+    width: 30%;
   }
 }
 
