@@ -1,0 +1,103 @@
+body {
+  background-color: #a5a5a5;
+}
+
+.footer-header h1 {
+  background-color: #444;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+button {
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  background-color: #ffffff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  outline: none;
+  transition: background-color 200ms;
+}
+
+.site-header-body {
+  flex: 1;
+  background-color: #dfdfdf;
+}
+
+@media (min-width: 900px) {
+  .website-body {
+    display: flex;
+  }
+}
+
+.nav-buttons {
+  padding: 0;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 900px) {
+  nav {
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .nav-buttons {
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+  }
+
+  .nav-buttons li {
+    margin: auto;
+    list-style: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-buttons {
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+.nav-buttons li button {
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 2px;
+  width: 100%;
+  text-align: start;
+}
+
+.articles {
+  flex: 2;
+  background-color: #aaaaaa;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.article {
+  background-color: #e0e0e0;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .articles {
+    padding-left: 40px;
+    display: flex;
+  }
+  .article {
+    width: 370px;
+  }
+}
+
+.footer {
+  background-color: #444;
+}
